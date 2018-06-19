@@ -1,7 +1,8 @@
 body {
-  background-color: #grey;
+  background-color: #black;
   color: #black;
   font-size: 16px;
+  line-height: normal;
 }
 
 nav {
@@ -27,7 +28,7 @@ nav {
   width: 70%;
 }
 
-.left, .right {
+.left .right {
   float: left;
   width: 50%;
 }
@@ -37,7 +38,8 @@ nav {
 }
 .h1  {
   font-size: 72px:
-  color: black;
+  color: black
+  font-weight:lighter;
 
 }
 ul {
@@ -48,6 +50,7 @@ ul {
 li {
   float: right;
   padding: 30px;
+  text-decoration: none;
 }
 
 article {
