@@ -1,22 +1,27 @@
 body {
-  background-color: #black;
+  background-color: white;
   color: #black;
   font-size: 16px;
-  line-height: normal;
+  line-height: 1.2;
 }
 
 nav {
-  background-color: #black;
+  background-color: black;
   float: left;
   position: fixed;
   width: 100%;
-  text-decoration: none;
   color: blue;
-
+  height: 10%;
 }
-.links {
+/* why aren't the links fixing to the navbar?*/
+
+a {
   text-decoration: none;
 }
+a:hover {
+  color: white;
+}
+
 .logo {
   margin: 20px;
   width: 100px
@@ -24,25 +29,36 @@ nav {
 }
 
 .large-pic {
-  width: 90%;
+  width: 200%;
+
 }
 
 .medium-pic {
-  width: 70%;
+  width: 100%;
+  margin: auto;
 }
 
 .left .right {
   float: left;
-  width: 50%;
+  width: 50%
+;
 }
 
 .right {
-  float: right;
+  float: right
+;
 }
 .h1  {
   font-size: 72px:
   color: black
-  font-weight:lighter;
+  ;
+  ;
+}
+
+p {
+  display: block;
+  padding-top: 5%;
+  padding-bottom: 2%;
 
 }
 ul {
@@ -53,7 +69,7 @@ ul {
 li {
   float: right;
   padding: 30px;
-  text-decoration: none;
+  position: relative;
 }
 
 article {
@@ -63,4 +79,12 @@ article {
 .container {
   margin: 0 auto;
   width: 50%;
+  line-height: normal;
+  line-height: 1.2;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 23px;
+  padding-bottom: 5%;
 }
