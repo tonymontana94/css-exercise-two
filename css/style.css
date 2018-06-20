@@ -17,15 +17,16 @@ nav {
 
 a {
   text-decoration: none;
+  margin-left: 750%;
 }
 a:hover {
   color: white;
 }
 
 .logo {
-  margin: 20px;
-  width: 100px
-  ;
+  margin: 18px;
+  margin-left: -388px;
+  width: 100px;
 }
 
 .large-pic {
@@ -41,12 +42,10 @@ a:hover {
 .left .right {
   float: left;
   width: 50%
-;
 }
 
 .right {
-  float: right
-;
+  float: right;
 }
 .h1  {
   font-size: 72px:
