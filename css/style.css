@@ -14,14 +14,17 @@ nav {
   color: blue;
 
 }
-
+.links {
+  text-decoration: none;
+}
 .logo {
   margin: 20px;
-  width: 100px;
+  width: 100px
+  ;
 }
 
 .large-pic {
-  width: 100%;
+  width: 90%;
 }
 
 .medium-pic {
